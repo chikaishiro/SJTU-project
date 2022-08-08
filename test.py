@@ -8,4 +8,3 @@ def main():
     t_env = StreamTableEnvironment.create(env)
     t_env.exec("method",data)
   # this is from dev branch
-  return
